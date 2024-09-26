@@ -19,11 +19,11 @@ public class DeviceFarmLogin {
         DesiredCapabilities caps = new DesiredCapabilities();
 
         // Set your access credentials
-        caps.setCapability("browserstack.user", "johntest_Ksgqeu");
-        caps.setCapability("browserstack.key", "9HQmxXwULmsxsUXvx2WL");
+        caps.setCapability("browserstack.user", "user");
+        caps.setCapability("browserstack.key", "key");
 
         // Set URL of the application under test
-        caps.setCapability("app", "bs://517517dbfe21288fdffa4197f06972536623b6f9");
+        caps.setCapability("app", "bs://hashbrowserStack);
 
         // Specify device and os_version for testing
         caps.setCapability("device", "Google Pixel 7 Pro");
